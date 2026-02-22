@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <theme>dark</theme>
+        <documentTitle>Automation Report</documentTitle>
+        <reportName>Hybrid BDD Framework Report</reportName>
+        <encoding>UTF-8</encoding>
+    </configuration>
+</extentreports>

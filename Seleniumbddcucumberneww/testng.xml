@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Parallel Suite" parallel="methods" thread-count="3">
+
+    <test name="Cucumber Tests">
+        <classes>
+            <class name="runner.TestRunner"/>
+        </classes>
+    </test>
+
+</suite>
