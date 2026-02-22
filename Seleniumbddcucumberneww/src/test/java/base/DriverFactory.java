@@ -7,8 +7,10 @@ import org.openqa.selenium.edge.EdgeDriver;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class DriverFactory {
-
+public class DriverFactory 
+{
+// log.info("Framework enhancement branch update");
+	
     private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
 
     public static void initDriver(String browser) {
